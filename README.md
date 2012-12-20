@@ -29,10 +29,15 @@ LAUNCHING THE UPDATER
 
 To use the updater you have launch it from app direcotry and provide it with several command line switches.
 -v <version>        - Current application version
+
 -rs <path>          - Restart path (this app will be launched after update)
+
 -an <name>          - Short application name, used for finding update on web server.
+
 -al <longname>          - Long application name, for display purposes
+
 -s <address>        - Update server URL
+
 
 All switches are required. If Updater finds newer version on server than <version> provider it will download files designated in <name>.fupd file and update old ones.
 
